@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
 
-source ~/.bashrc
-conda activate llm_lecture
+source /gs/bs/hp190122/ux07012/.venv/llm_lecture/bin/activate
 cd ~/develop/LLM_lecture/Megatron-LM
 
 export CUDA_DEVICE_MAX_CONNECTIONS=1
