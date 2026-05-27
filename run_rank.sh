@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+module load cuda/12.8.0
 module load openmpi/5.0.10-gcc
 source /gs/bs/hp190122/ux07012/.venv/llm_lecture/bin/activate
 cd ~/develop/LLM_lecture/Megatron-LM
